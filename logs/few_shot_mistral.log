@@ -1,0 +1,45 @@
+Loaded 9 few-shot examples:
+                                                                                                                                                                                                                                                                text  label
+0                                                                                                                                                                                                                  সত্যটা বের হোক এটাই চাই।আর উপযুক্ত শাস্তি যেন হয়।      0
+1                                                                                                                                                              এই ঘটনায় যারা মারা গেছে তাদের কি হবে তাদের পরিবারকে ক্ষতিপূরণ কে দিবে সেটা কি একবারও ভেবে ভেবেছে কেও      0
+2                                                                                                                                                                  কোথায় সেই মানবাধিকার কর্মীরা যারা কয়েকদিন আগে মানবাধিকারের বুলি উড়িয়ে ছিলো, জাতি তাদের দেখতে চায়      0
+3                                                                                                                                                                                               নাস্তিকদেরকে হত্যা করে ফাঁসি মঞ্চে হেসে যাওয়াটা সবার কপালে যুটে না।      1
+4                                                                                                                                                                                                          ঢাকা কলেজ কে ধন্যবাদ দোকান দারদের উচিত শিক্ষা দেওয়ার জন্য      1
+5                                                                                                                                                                                                                                                টাকলু র দায় সব কিছু      1
+6  মুসলিম জঙ্গিদের হাতিয়ার আল্লাহাকবর ! মুস্লিম্ন রা ভিক্ষা করতে আর জঙ্গিরা মানুষের গলা কাটতে এই শব্দের ব্যবহার করে ! ভারতের উচিত এই সকল জঙ্গিদের পাকিস্তান বা আফগান পাঠিয়ে দেওয়া ! বিশ্বের সবচে বড় গণতান্ত্রিক দেশে কি করে কিছু জঙ্গি এখনো টিকে থাকে সেটাই প্রশ্ন !      2
+7                                                                                                                                                 এমন রায় কখন সহিংসতা প্রতিরোধ করতে পারেনা। বরং মুক্ত চিন্তাশিলদের কোন ধর্ম কে পুজি করে কথা না বলার আইন পাশ করা হোক।      2
+8                                                                                                                                                              আজ মন থেকে অভিশাপ করছি আল্লাহ তুমি এরকম সাংবাদিক এবং নাফরমান নেতাদের হয় হেদায়েত দাও নয়ত ধ্বংস করে দাও      2
+
+Loading mistralai/Mistral-7B-Instruct-v0.2 ...
+CUDA available: True
+  GPU 0: NVIDIA RTX A4500 | 21.0 GB VRAM
+  GPU 1: NVIDIA RTX A4500 | 21.0 GB VRAM
+  GPU 2: NVIDIA RTX A4500 | 21.0 GB VRAM
+  GPU 3: NVIDIA RTX A4500 | 21.0 GB VRAM
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.44s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.46s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.31s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.35s/it]
+Model loaded.
+
+Loaded 1330 test samples
+Using model: mistralai/Mistral-7B-Instruct-v0.2 with 9 few-shot examples
+
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  Processed 100/1330 | Failed so far: 0
+  Processed 200/1330 | Failed so far: 0
+  Processed 300/1330 | Failed so far: 0
+  Processed 400/1330 | Failed so far: 0
+  Processed 500/1330 | Failed so far: 0
+  Processed 600/1330 | Failed so far: 0
+  Processed 700/1330 | Failed so far: 0
+  Processed 800/1330 | Failed so far: 0
+  Processed 900/1330 | Failed so far: 0
+  Processed 1000/1330 | Failed so far: 0
+  Processed 1100/1330 | Failed so far: 0
+  Processed 1200/1330 | Failed so far: 0
+  Processed 1300/1330 | Failed so far: 0
+
+=== Few-Shot Mistral 7B Results ===
+Total samples:   1330
+Failed/unparsed: 0
+Accuracy:        0.5759
+
+Results saved to results/few_shot_mistral_predictions.csv

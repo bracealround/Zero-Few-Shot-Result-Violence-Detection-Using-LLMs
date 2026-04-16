@@ -1,0 +1,24 @@
+nohup: ignoring input
+Loaded 1330 test samples
+Using model: llama-3.1-8b-instant via Groq API
+
+  Processed 100/1330 | Failed so far: 0
+  Processed 200/1330 | Failed so far: 0
+  Processed 300/1330 | Failed so far: 0
+  Processed 400/1330 | Failed so far: 0
+  Processed 500/1330 | Failed so far: 0
+  Processed 600/1330 | Failed so far: 0
+  Processed 700/1330 | Failed so far: 0
+  Processed 800/1330 | Failed so far: 0
+  Processed 900/1330 | Failed so far: 0
+  Processed 1000/1330 | Failed so far: 0
+  Processed 1100/1330 | Failed so far: 0
+  Processed 1200/1330 | Failed so far: 0
+  Processed 1300/1330 | Failed so far: 0
+
+=== Zero-Shot LLaMA 3 8B Results ===
+Total samples:   1330
+Failed/unparsed: 0
+Accuracy:        0.6391
+
+Results saved to results/zero_shot_llama_predictions.csv
